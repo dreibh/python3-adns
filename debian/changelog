@@ -1,4 +1,4 @@
-python3-adns (1.2.1p3~alpha1.0-1ubuntu1) yakkety; urgency=medium
+python3-adns (1.2.1~alpha1.0-1ubuntu1) yakkety; urgency=medium
 
   * New upstream version for Python 3.
   * debian/control: Updated for Python 3 sources.
