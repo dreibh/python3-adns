@@ -5,7 +5,7 @@ Maintainer: Thomas Dreibholz <dreibh@simula.no>
 Build-Depends: debhelper (>= 9),
                libadns1-dev,
                libfile-fcntllock-perl,
-               python-support | dh-python,
+               python-minimal,
                python3 (>= 3.2~),
                python3-dev (>= 3.2~),
                python3-setuptools
