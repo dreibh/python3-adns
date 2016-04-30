@@ -45,3 +45,8 @@ cp src/ADNS.py $PACKAGE-$UPSTREAM_VERSION
 cp src/MANIFEST.in $PACKAGE-$UPSTREAM_VERSION
 cp src/setup.py $PACKAGE-$UPSTREAM_VERSION
 cp src/test.py $PACKAGE-$UPSTREAM_VERSION
+# ---------------------------------------------------------
+
+
+tar czvf $PACKAGE-$UPSTREAM_VERSION.tar.gz $PACKAGE-$UPSTREAM_VERSION
+rm -rf $PACKAGE-$UPSTREAM_VERSION

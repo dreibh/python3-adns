@@ -3,7 +3,7 @@ Upstream-Name: python3-adns
 Upstream-Contact: Loic Jaquemet
 Source: https://github.com/trolldbois/python3-adns
 
-Files: *
+Files: src/*
 Copyright:
  Copyright 2002-2008 Andy Dustman
  Copyright 2012-2013 Loic Jaquemet
@@ -22,10 +22,19 @@ License: GPL-2+
  obtain it by writing to the Free Software Foundation, Inc., 51 Franklin St,
  Fifth Floor, Boston, MA 02110-1301, USA.
 
+Files: README
+Copyright:
+ Copyright 2002-2008 Andy Dustman
+License: GPL-2+
+
 Files: debian/*
 Copyright:
  Copyright 2002-2004 Peter Hawkins <peterh@debian.org>,
  Copyright 2007 Ernesto Nadir Crespo Avila <ecrespo@debianvenezuela.org>,
  Copyright 2009 Jan Dittberner <jandd@debian.org>
- Copyright 2016 Thomas Dreibholz <dreibh@iem.uni-due.de> 
+ Copyright 2016 Thomas Dreibholz <dreibh@iem.uni-due.de>
+License: GPL-2+
+
+Files: *
+Copyright: Copyright 2016 Thomas Dreibholz <dreibh@iem.uni-due.de>
 License: GPL-2+
