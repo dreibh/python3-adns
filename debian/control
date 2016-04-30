@@ -1,0 +1,26 @@
+Source: python3-adns
+Section: python
+Priority: optional
+Maintainer: Thomas Dreibholz <dreibh@simula.no>
+Build-Depends: debhelper (>= 9),
+               libfile-fcntllock-perl,
+               python-support | dh-python,
+               python3 (>= 3.2~),
+               python3-setuptools,
+               libadns1-dev
+Standards-Version: 3.9.7
+X-Python-Version: >= 3.2
+Homepage: https://github.com/trolldbois/python3-adns
+
+Package: python3-adns
+Architecture: any
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Description: Python bindings to the asynchronous DNS resolver library
+ This module provides a Python binding to the adns asynchronous DNS
+ resolver library.
+ .
+ The module provides a small wrapper adns that simply returns status
+ codes as does the C library. It also provides a more Python like
+ interface ADNS that wraps status codes in proper exceptions.
+ .
+ The package contains working examples in ADNS.py and DNSBL.py.
