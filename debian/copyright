@@ -3,38 +3,33 @@ Upstream-Name: python3-adns
 Upstream-Contact: Loic Jaquemet
 Source: https://github.com/trolldbois/python3-adns
 
-Files: src/*
+Files: *
 Copyright:
  Copyright 2002-2008 Andy Dustman
  Copyright 2012-2013 Loic Jaquemet
 License: GPL-2+
- This program is free software; you may redistribute it and/or modify it under
- the terms of the GNU General Public License version 2 as published by the Free
- Software Foundation.
- .
- This is distributed in the hope that it will be useful, but without any
- warranty; without even the implied warranty of merchantability or fitness for
- a particular purpose. See the GNU General Public License for more details.
- .
- A copy of the GNU General Public License version 2 is available as
- /usr/share/common-licenses/GPL-2 in the Debian GNU/Linux distribution or on
- the World Wide Web at http://www.gnu.org/copyleft/gpl.html. You can also
- obtain it by writing to the Free Software Foundation, Inc., 51 Franklin St,
- Fifth Floor, Boston, MA 02110-1301, USA.
-
-Files: README
-Copyright:
- Copyright 2002-2008 Andy Dustman
-License: GPL-2+
 
 Files: debian/*
 Copyright:
- Copyright 2002-2004 Peter Hawkins <peterh@debian.org>,
- Copyright 2007 Ernesto Nadir Crespo Avila <ecrespo@debianvenezuela.org>,
+ Copyright 2002-2004 Peter Hawkins <peterh@debian.org>
+ Copyright 2007 Ernesto Nadir Crespo Avila <ecrespo@debianvenezuela.org>
  Copyright 2009 Jan Dittberner <jandd@debian.org>
- Copyright 2016 Thomas Dreibholz <dreibh@iem.uni-due.de>
+ Copyright 2016 Thomas Dreibholz <dreibh@simula.no>
 License: GPL-2+
 
-Files: *
-Copyright: Copyright 2016 Thomas Dreibholz <dreibh@iem.uni-due.de>
 License: GPL-2+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.

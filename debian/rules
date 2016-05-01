@@ -21,3 +21,7 @@ override_dh_auto_install:
 	for i in $(build3vers); do \
 		python$$i ./setup.py install --root $(CURDIR)/debian/python3-adns; \
 	done
+
+override_dh_auto_clean:
+	dh_clean
+	rm -rf build
