@@ -5,17 +5,16 @@ Maintainer: Thomas Dreibholz <dreibh@simula.no>
 Build-Depends: debhelper (>= 9),
                libadns1-dev,
                libfile-fcntllock-perl,
-               python-minimal,
                python3 (>= 3.2~),
-               python3-dev (>= 3.2~),
-               python3-setuptools
+               python3-dev-all (>= 3.2~)
 Standards-Version: 3.9.7
-X-Python3-Version: >= 3.2
+X-Python3-Version: >= 3.2~
 Homepage: https://github.com/trolldbois/python3-adns
 
 Package: python3-adns
 Architecture: any
-Depends: ${misc:Depends},
+Depends: libadns1,
+         ${misc:Depends},
          ${python:Depends},
          ${shlibs:Depends}
 Description: Python bindings to the asynchronous DNS resolver library

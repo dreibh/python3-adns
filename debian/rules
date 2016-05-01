@@ -4,13 +4,20 @@
 #export DH_VERBOSE=1
 
 
+build3vers := $(shell py3versions -rv)
+
 %:
 	dh $@ --with python3
 
 override_dh_auto_build:
-	python3 setup.py build ; \
+	set -e ; \
+	for i in $(build3vers); do \
+		python$$i ./setup.py build;\
+	done
 
-# Use setup.py to install the API module into the right directory.
 override_dh_auto_install:
-	# NOTE: This is for the package "python3-adns", hence the following --root parameter!
-	python3 setup.py install --install-layout=deb --root $(CURDIR)/debian/python3-adns ; \
+	mkdir -p $(CURDIR)/debian/python3-adns/usr/share/python3-adns/
+	set -e ; \
+	for i in $(build3vers); do \
+		python$$i ./setup.py install --root $(CURDIR)/debian/python3-adns; \
+	done
