@@ -1195,7 +1195,7 @@ PyInit_adns(void)
     /* Add some symbolic constants to the module*/
     d = PyModule_GetDict(m);
     /**  Py_INCREF + PyModule_AddObject( ??? - not using the object dict ?*/
-    ErrorObject = _new_exception(d, "Error", PyExc_ConnectionError);
+    ErrorObject = _new_exception(d, "Error", ErrorObject);
     NotReadyError = _new_exception(d, "NotReady", ErrorObject);
     LocalError = _new_exception(d, "LocalError", ErrorObject);
     RemoteError = _new_exception(d, "RemoteError", ErrorObject);
