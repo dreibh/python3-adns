@@ -1,3 +1,11 @@
+python3-adns (1.2.5~rc1-2ubuntu1) cosmic; urgency=medium
+
+  * New upstream version.
+  * debian/control: dependency fix; updated standards version.
+  * debian/copyright: updated.
+
+ -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Wed, 07 Jun 2018 08:08:08 +0800
+
 python3-adns (1.2.4-2ubuntu1) yakkety; urgency=medium
 
   * New upstream version for Python 3.
@@ -41,7 +49,7 @@ python-adns (1.2.1-5) unstable; urgency=low
 
 python-adns (1.2.1-4) unstable; urgency=low
 
-  * debian/control: update Standards-Version to 3.8.4 (no changes necessary) 
+  * debian/control: update Standards-Version to 3.8.4 (no changes necessary)
   * debian/watch: update to new Google code URLs
 
  -- Jan Dittberner <jandd@debian.org>  Sat, 29 May 2010 16:08:40 +0200
@@ -153,7 +161,7 @@ python-adns (1.0.0-6) unstable; urgency=low
   * debian/control: Add Build-Depends on python. (closes: #258482)
   * debian/rules: Build architecture independent packages in the
     binary-indep target, not the binary-arch target. (closes: #214266)
-  * adnsmodule.c: Added code to parse DNS TXT records (closes: #236763) 
+  * adnsmodule.c: Added code to parse DNS TXT records (closes: #236763)
 
  -- Peter Hawkins <peterh@debian.org>  Sat, 10 Jul 2004 10:53:06 +1000
 
@@ -185,7 +193,7 @@ python-adns (1.0.0-4) unstable; urgency=low
 
 python-adns (1.0.0-3) unstable; urgency=low
 
-  * Updated standards version to 3.5.7. 
+  * Updated standards version to 3.5.7.
 
  -- Peter Hawkins <peterh@debian.org>  Tue, 17 Sep 2002 21:54:42 +1000
 

@@ -3,12 +3,13 @@ Section: python
 Priority: optional
 Maintainer: Thomas Dreibholz <dreibh@iem.uni-due.de>
 Build-Depends: debhelper (>= 9),
+               dh-python,
                libadns1-dev,
                libfile-fcntllock-perl,
                libpython3-all-dev | python3-all-dev,
                python3-all,
                python3-minimal
-Standards-Version: 4.1.1
+Standards-Version: 4.1.4
 X-Python3-Version: >= 3.2
 Homepage: https://github.com/trolldbois/python3-adns
 Vcs-Git: https://github.com/dreibh/python3-adns.git

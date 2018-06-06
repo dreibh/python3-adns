@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: python3-adns
 Upstream-Contact: Loic Jaquemet
 Source: https://github.com/trolldbois/python3-adns
@@ -14,7 +14,7 @@ Copyright:
  Copyright 2002-2004 Peter Hawkins <peterh@debian.org>
  Copyright 2007 Ernesto Nadir Crespo Avila <ecrespo@debianvenezuela.org>
  Copyright 2009 Jan Dittberner <jandd@debian.org>
- Copyright 2016 Thomas Dreibholz <dreibh@simula.no>
+ Copyright 2016-2018 Thomas Dreibholz <dreibh@simula.no>
 License: GPL-2+
 
 License: GPL-2+
