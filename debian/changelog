@@ -1,4 +1,4 @@
-python3-adns (1.2.5~rc1-2ubuntu1) cosmic; urgency=medium
+python3-adns (1.2.5~rc1.1-2ubuntu1) cosmic; urgency=medium
 
   * New upstream version.
   * debian/control: dependency fix; updated standards version.

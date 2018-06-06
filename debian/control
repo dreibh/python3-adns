@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Thomas Dreibholz <dreibh@iem.uni-due.de>
 Build-Depends: debhelper (>= 9),
-               dh-python,
+               dh-python | debhelper,
                libadns1-dev,
                libfile-fcntllock-perl,
                libpython3-all-dev | python3-all-dev,
