@@ -1,3 +1,10 @@
+python3-adns (1.2.7-1ubuntu1) disco; urgency=medium
+
+  * New upstream version.
+  * debian/control: dependency fix; updated standards version.
+
+ -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Wed, 15 May 2019 08:08:08 +0800
+
 python3-adns (1.2.6-1ubuntu1) cosmic; urgency=medium
 
   * New upstream version.
