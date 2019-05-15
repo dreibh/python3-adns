@@ -18,7 +18,7 @@
 #
 # Contact: dreibh@iem.uni-due.de
 
-. ./debian.conf
+. ./packaging.conf
 
 
 CHANGELOG_HEADER="`head -n1 debian/changelog`"
