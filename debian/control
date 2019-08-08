@@ -3,14 +3,12 @@ Section: python
 Priority: optional
 Maintainer: Thomas Dreibholz <dreibh@iem.uni-due.de>
 Build-Depends: debhelper (>= 9),
-               dh-python | debhelper,
+               dh-python,
                libadns1-dev,
                libfile-fcntllock-perl,
                libpython3-all-dev | python3-all-dev,
-               python3-all,
-               python3-minimal
-Standards-Version: 4.2.1
-X-Python3-Version: >= 3.2
+               python3-all
+Standards-Version: 4.4.0.1
 Homepage: https://github.com/trolldbois/python3-adns
 Vcs-Git: https://github.com/dreibh/python3-adns.git
 Vcs-Browser: https://github.com/dreibh/python3-adns/
@@ -18,6 +16,7 @@ Vcs-Browser: https://github.com/dreibh/python3-adns/
 Package: python3-adns
 Architecture: any
 Depends: libadns1,
+         ${Python3:Depends},
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Python bindings to the asynchronous DNS resolver library
