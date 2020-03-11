@@ -1,4 +1,4 @@
-python3-adns (1.2.8~rc1-1ubuntu1) unstable; urgency=medium
+python3-adns (1.2.8~rc2-1ubuntu1) unstable; urgency=medium
 
   * New upstream version.
   * debian/control: dependency fix; updated standards version.
