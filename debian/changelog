@@ -1,4 +1,4 @@
-python3-adns (1.2.8~rc4-1ubuntu1) jammy; urgency=medium
+python3-adns (1.2.8~rc5-1ubuntu1) jammy; urgency=medium
 
   * New upstream version.
   * Closes: #1005919 (ITP).
