@@ -1,6 +1,7 @@
 python3-adns (1.2.8~rc4-1ubuntu1) jammy; urgency=medium
 
   * New upstream version.
+  * Closes: #1005919 (ITP).
 
  -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Wed, 16 Feb 2022 08:08:08 +0800
 
