@@ -5,7 +5,6 @@ Maintainer: Thomas Dreibholz <dreibh@iem.uni-due.de>
 Build-Depends: debhelper (>= 12),
                dh-python,
                libadns1-dev,
-               libfile-fcntllock-perl,
                libpython3-all-dev | python3-all-dev,
                python3-all
 Standards-Version: 4.6.0.1
