@@ -2,12 +2,13 @@ Source: python3-adns
 Section: python
 Priority: optional
 Maintainer: Thomas Dreibholz <dreibh@iem.uni-due.de>
-Build-Depends: debhelper (>= 12),
+Build-Depends: debhelper (>= 11),
                dh-python,
                libadns1-dev,
                libpython3-all-dev | python3-all-dev,
-               python3-all
-Standards-Version: 4.6.0.1
+               python3-all,
+               python3-setuptools | python3-distutils
+Standards-Version: 4.7.2
 Rules-Requires-Root: no
 Homepage: https://github.com/trolldbois/python3-adns
 

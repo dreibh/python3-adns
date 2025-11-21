@@ -3,8 +3,10 @@
 """Setup script for the adns module distribution."""
 
 import os, sys
-from distutils.core import setup
-from distutils.extension import Extension
+try:
+   from setuptools import setup, Extension
+except ImportError:
+   from distutils.core import setup, Extension
 
 # You probably don't have to do anything past this point. If you
 # do, please mail me the configuration for your platform. Don't
@@ -20,7 +22,7 @@ if os.name == "posix": # most Linux/UNIX platforms
 else:
     raise ValueError("sys.platform=%s, os.name=%s" )% \
           (sys.platform, os.name)
-    
+
 long_description = \
 """adns-python is a Python module that interfaces to the adns asynchronous
 resolver library.
@@ -29,7 +31,7 @@ http://www.gnu.org/software/adns/
 """
 setup (# Distribution meta-data
     name = "adns",
-    version = "1.4-py1",
+    version = "1.4",
     description = "An interface to GNU adns - python3 port",
     author = "Loic Jaquemet",
     author_email = "loic.jaquemet+python@gmail.com",
@@ -47,9 +49,9 @@ setup (# Distribution meta-data
     ],
 
     # Description of the modules and packages in the distribution
-    
+
     py_modules = ["DNSBL", "ADNS"],
-    
+
     #ext_modules = cythonize("adns.pyx"),
     ext_modules = [    Extension(    name='adns',    sources=['adnsmodule.c'],
               include_dirs=include_dirs,    library_dirs=library_dirs,
