@@ -1,7 +1,13 @@
-python3-adns (1.2.8~rc6-1ubuntu1) jammy; urgency=medium
+python3-adns (1.2.8~rc7-1ubuntu1) jammy; urgency=medium
 
   * New upstream version.
   * Closes: #1005919 (ITP).
+
+ -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Fri, 21 Nov 2025 08:08:08 +0800
+
+python3-adns (1.2.8~rc6-1ubuntu1) jammy; urgency=medium
+
+  * New upstream version.
 
  -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Wed, 16 Feb 2022 08:08:08 +0800
 
